@@ -1,11 +1,11 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\System\\StreamSystem\\",
+  "WorkspaceRootPath": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\System\\system\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
