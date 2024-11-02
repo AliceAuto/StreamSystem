@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\PyScript.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:PyScript.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\CppDll.sln||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:CppDll\\CppDll.sln||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CppDll.sln",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\CppDll.sln",
+              "RelativeDocumentMoniker": "CppDll\\CppDll.sln",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\CppDll.sln",
+              "RelativeToolTip": "CppDll\\CppDll.sln",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002855|",
+              "WhenOpened": "2024-11-02T13:57:28.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PyScript.py",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\PyScript.py",
+              "RelativeDocumentMoniker": "PyScript.py",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\PyScript.py",
+              "RelativeToolTip": "PyScript.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVDhPpZOxioNAGITHwzJlCpuABxYWKVLkAezFtxAs7a5NKQeBpEtjESGgb\u002BAD2AgWNoKChZZ2SWeKwN66eMGNEkjywYC7vzP4Dyh8578Eb1KpP0Af8JY67xd9\u002BAguoKoqpiiKYNs2uxNFEbquIwxD5HmOw\u002BGA\u002BXzOZh1cgCzLCIIARVFgv99D0zQ4joPT6YQ4juG6LtbrNQu9M\u002Bygg5qIqqqkbVtiWRY5n89kt9txu/9rsgPf95EkCS6XCzzPw/V6RdM0/XTMKGC73cIwDCwWC2Y\u002BHo8wTROr1QqKomCz2WA2m/VvUx5XoD1wnylJEknTlM06yrIkNIjNmHcY0JlpQffzUMvlkml4N\u002Bqgrmvcbrf\u002BxJNlGdMjow5ehQugK07qGVyAIAiTesbHK3z0OwPAH6D4xld\u002BSxLJAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-02T13:55:52.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
