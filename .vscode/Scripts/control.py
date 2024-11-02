@@ -1,24 +1,33 @@
-"""
-本代码由[Tkinter布局助手]生成
-官网:https://www.pytk.net
-QQ交流群:905019785
-在线反馈:https://support.qq.com/product/618914
-"""
-# 示例下载 https://www.pytk.net/blog/1702564569.html
 class Controller:
-    # 导入UI类后，替换以下的 object 类型，将获得 IDE 属性提示功能
-    ui: object
+    ui: WinGUI
+
     def __init__(self):
         pass
+
     def init(self, ui):
-        """
-        得到UI实例，对组件进行初始化配置
-        """
         self.ui = ui
-        # TODO 组件初始化 赋值操作
+
     def User_Info(self):
         print("点击了菜单")
-    def login(self,evt):
-        print("<Button-1>事件未处理:",evt)
-    def zhuce(self,evt):
-        print("<Button-1>事件未处理:",evt)
+
+    def login(self, evt):
+        username = self.ui.tk_input_Account_Input.get()
+        password = self.ui.tk_input_PassWard_Input.get()
+
+        if not username or not password:
+            self.ui.show_error("账号和密码不能为空！")
+            return
+
+        # 模拟后端验证
+        if self.validate_user(username, password):
+            self.ui.show_message("登录成功！")
+            # 这里可以继续进行其他操作，如跳转到主界面
+        else:
+            self.ui.show_error("账号或密码错误！")
+
+    def zhuce(self, evt):
+        print("<Button-1>事件未处理:", evt)
+
+    def validate_user(self, username, password):
+        # 模拟一个简单的验证逻辑，这里应该与后端进行实际的验证
+        return username == "admin" and password == "password"  # 示例：只接受 admin/password
