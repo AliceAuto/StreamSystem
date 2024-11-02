@@ -1,9 +1,10 @@
+// main.cpp
 #include <iostream>
-#include "system.h"
-using namespace std;
+#include "example.h" // 包含头文件
 
 int main() {
-    cout << "Hello, world!" << endl;
-    cout<<"This is a test program."<<endl;
+    int sum = add(5, 3);
+    int diff = subtract(5, 3);
+    std::cout << "Sum: " << sum << ", Difference: " << diff << std::endl;
     return 0;
 }

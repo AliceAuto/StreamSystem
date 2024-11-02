@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/物流系统/----",
-      "program": "d:/物流系统/----/build/Debug/outDebug",
+      "cwd": "d:/物流系统/----/.vscode/Src",
+      "program": "d:/物流系统/----/.vscode/Src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
