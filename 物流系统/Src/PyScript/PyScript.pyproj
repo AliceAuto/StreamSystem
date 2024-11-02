@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c39fcfd9-fdd9-48f2-870f-9d21f744905d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyScript.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PyScript.py" />
+    <Compile Include="control.py" />
+    <Compile Include="main.py" />
+    <Compile Include="ui.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CppDll\" />
