@@ -34,9 +34,13 @@
     <Folder Include="CppDll\.vs\CppDll\v17\ipch\" />
     <Folder Include="CppDll\.vs\CppDll\v17\ipch\AutoPCH\" />
     <Folder Include="CppDll\.vs\CppDll\v17\ipch\AutoPCH\62f5a8cd0346ab67\" />
+    <Folder Include="DllCpp\" />
+    <Folder Include="DllCpp\.vs\" />
+    <Folder Include="DllCpp\.vs\DllCpp\" />
+    <Folder Include="DllCpp\.vs\DllCpp\FileContentIndex\" />
+    <Folder Include="DllCpp\.vs\DllCpp\v17\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CppDll\.vs\CppDll\FileContentIndex\7d7a5d7a-6800-4d91-a4ce-ed39d21886d1.vsidx" />
     <Content Include="CppDll\.vs\CppDll\FileContentIndex\df3ca2c6-409d-4d44-b98e-e7e692b8305f.vsidx" />
     <Content Include="CppDll\.vs\CppDll\v17\.suo" />
     <Content Include="CppDll\.vs\CppDll\v17\Browse.VC.db" />
@@ -53,6 +57,13 @@
     <Content Include="CppDll\framework.h" />
     <Content Include="CppDll\pch.cpp" />
     <Content Include="CppDll\pch.h" />
+    <Content Include="DllCpp\.vs\DllCpp\v17\.suo" />
+    <Content Include="DllCpp\.vs\DllCpp\v17\Browse.VC.db" />
+    <Content Include="DllCpp\.vs\DllCpp\v17\DocumentLayout.json" />
+    <Content Include="DllCpp\DllCpp.sln" />
+    <Content Include="DllCpp\DllCpp.vcxproj" />
+    <Content Include="DllCpp\DllCpp.vcxproj.filters" />
+    <Content Include="DllCpp\DllCpp.vcxproj.user" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
