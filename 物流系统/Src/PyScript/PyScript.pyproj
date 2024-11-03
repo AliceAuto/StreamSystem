@@ -26,44 +26,7 @@
     <Compile Include="ui.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CppDll\" />
-    <Folder Include="CppDll\.vs\" />
-    <Folder Include="CppDll\.vs\CppDll\" />
-    <Folder Include="CppDll\.vs\CppDll\FileContentIndex\" />
-    <Folder Include="CppDll\.vs\CppDll\v17\" />
-    <Folder Include="CppDll\.vs\CppDll\v17\ipch\" />
-    <Folder Include="CppDll\.vs\CppDll\v17\ipch\AutoPCH\" />
-    <Folder Include="CppDll\.vs\CppDll\v17\ipch\AutoPCH\62f5a8cd0346ab67\" />
-    <Folder Include="DllCpp\" />
-    <Folder Include="DllCpp\.vs\" />
-    <Folder Include="DllCpp\.vs\DllCpp\" />
-    <Folder Include="DllCpp\.vs\DllCpp\FileContentIndex\" />
-    <Folder Include="DllCpp\.vs\DllCpp\v17\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="CppDll\.vs\CppDll\FileContentIndex\df3ca2c6-409d-4d44-b98e-e7e692b8305f.vsidx" />
-    <Content Include="CppDll\.vs\CppDll\v17\.suo" />
-    <Content Include="CppDll\.vs\CppDll\v17\Browse.VC.db" />
-    <Content Include="CppDll\.vs\CppDll\v17\DocumentLayout.json" />
-    <Content Include="CppDll\.vs\CppDll\v17\ipch\8a0c883e8ff90653.ipch" />
-    <Content Include="CppDll\.vs\CppDll\v17\ipch\AutoPCH\62f5a8cd0346ab67\DLLMAIN.ipch" />
-    <Content Include="CppDll\CppDll.sdf" />
-    <Content Include="CppDll\CppDll.sln" />
-    <Content Include="CppDll\CppDll.v11.suo" />
-    <Content Include="CppDll\CppDll.vcxproj" />
-    <Content Include="CppDll\CppDll.vcxproj.filters" />
-    <Content Include="CppDll\CppDll.vcxproj.user" />
-    <Content Include="CppDll\dllmain.cpp" />
-    <Content Include="CppDll\framework.h" />
-    <Content Include="CppDll\pch.cpp" />
-    <Content Include="CppDll\pch.h" />
-    <Content Include="DllCpp\.vs\DllCpp\v17\.suo" />
-    <Content Include="DllCpp\.vs\DllCpp\v17\Browse.VC.db" />
-    <Content Include="DllCpp\.vs\DllCpp\v17\DocumentLayout.json" />
-    <Content Include="DllCpp\DllCpp.sln" />
-    <Content Include="DllCpp\DllCpp.vcxproj" />
-    <Content Include="DllCpp\DllCpp.vcxproj.filters" />
-    <Content Include="DllCpp\DllCpp.vcxproj.user" />
+    <Folder Include="dlllib\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
