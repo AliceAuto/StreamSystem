@@ -2,6 +2,8 @@ from tkinter import *
 from tkinter.ttk import *
 import random
 
+
+'''           一级类                 '''
 class BaseFrame(Frame):
     """基础框架类，所有框架的基类。"""
     def __init__(self, parent):
@@ -40,34 +42,35 @@ class MainPage(BaseFrame):
 
     def __create_widgets(self):
         """创建主页面的组件。"""
+        '''
         # 信息框
         info_label_frame = LabelFrame(self, text="Information")
-        info_label_frame.place(x=402, y=89, width=665, height=387)
-
+        info_label_frame.place(x=402, y=20, width=665, height=200)  # 调整位置与高度
+       
         # 创建表头框
         head_label_frame = LabelFrame(self, text="Head")
-        head_label_frame.place(x=15, y=24, width=633, height=91)
+        head_label_frame.place(x=15, y=20, width=370, height=100)  # 增加高度
         self.head_table = self.__create_head_table(head_label_frame)
-
+        
         # 创建数据框
         data_label_frame = LabelFrame(self, text="Data")
-        data_label_frame.place(x=12, y=132, width=636, height=228)
+        data_label_frame.place(x=15, y=140, width=370, height=200)  # 调整位置避免重叠
         self.data_text = Text(data_label_frame, width=70, height=10)
-        self.data_text.pack()
-
+        self.data_text.pack(fill=BOTH, expand=True)
+        
         # 创建状态框
         status_label_frame = LabelFrame(self, text="Status")
-        status_label_frame.place(x=15, y=280, width=355, height=192)
+        status_label_frame.place(x=15, y=350, width=370, height=100)  # 调整位置
         self.progressbar = Progressbar(status_label_frame, orient=HORIZONTAL)
-        self.progressbar.place(x=10, y=20, width=300, height=30)
-
+        self.progressbar.place(x=10, y=20, width=350, height=30)
+        
         # 创建网格和节点地图
         self.grid_frame = Frame(self)
-        self.grid_frame.place(x=12, y=320, width=636, height=200)
+        self.grid_frame.place(x=400, y=230, width=620, height=200)  # 调整位置避免重叠
         self.draw_grid(self.grid_frame, rows=5, cols=5)
-
+        '''
         self.node_map = NodeMap(self)
-        self.node_map.place(x=12, y=50, width=636, height=250)
+        self.node_map.place(x=400, y=450, width=620, height=250)  # 调整位置
 
     def draw_grid(self, parent, rows, cols):
         """绘制二维网格，用随机颜色填充单元格。"""
@@ -79,14 +82,21 @@ class MainPage(BaseFrame):
 
     def __create_head_table(self, parent):
         """创建表头及其列。"""
-        columns = {"Account": 213, "Power": 183, "Name": 213}
+        columns = {"Account": 120, "Power": 80, "Name": 120}  # 适当调整列宽
         tk_table = Treeview(parent, show="headings", columns=list(columns))
         for text, width in columns.items():
             tk_table.heading(text, text=text, anchor='center')
             tk_table.column(text, anchor='center', width=width, stretch=False)
-        tk_table.place(x=10, y=13, width=612, height=46)
+        tk_table.pack(fill=BOTH, expand=True)  # 使用 pack 来管理表格
         return tk_table
 
+
+
+
+
+
+
+'''           二级类                 '''
 class NodeMap(BaseFrame):
     """节点地图类，负责绘制节点和边。"""
     def __init__(self, parent):
@@ -99,7 +109,7 @@ class NodeMap(BaseFrame):
         """创建画布。"""
         self.canvas = Canvas(self, bg="white")
         self.canvas.place(x=0, y=0, width=700, height=250)
-        self.canvas.create_rectangle(0, 0, 638, 250, outline="black", width=10)
+        self.canvas.create_rectangle(0, 0, 622, 250, outline="black", width=10)
 
         self.nodes = {}
         self.edges = []
@@ -107,8 +117,8 @@ class NodeMap(BaseFrame):
     def create_nodes(self, num_nodes):
         """创建指定数量的节点并随机放置在画布上。"""
         for i in range(num_nodes):
-            x = random.randint(50, 100)
-            y = random.randint(50, 100)
+            x = random.randint(50, 400)
+            y = random.randint(50, 200)
             node_id = self.canvas.create_oval(x - 10, y - 10, x + 10, y + 10, fill="blue")
             self.canvas.create_text(x, y, text=str(i + 1), font=("Arial", 12), fill="white")
             self.nodes[node_id] = (x, y)
@@ -134,6 +144,11 @@ class NodeMap(BaseFrame):
         x, y = self.nodes[node_id]
         print(f"Node {node_id} at ({x}, {y})")
 
+
+
+
+
+'''             UI主管类                '''
 class Win(Tk):
     """主窗口类，负责运行应用程序。"""
     def __init__(self, controller):
