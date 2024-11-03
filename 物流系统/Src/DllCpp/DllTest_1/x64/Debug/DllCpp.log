@@ -1,8 +1,0 @@
-﻿  DllTest_1.cpp
-  Mian.cpp
-  正在生成代码...
-  LINK : 没有找到 x64\Debug\DllCpp.exe 或上一个增量链接没有生成它；正在执行完全链接
-    正在创建库 x64\Debug\DllCpp.lib 和对象 x64\Debug\DllCpp.exp
-  DllCpp.vcxproj -> D:\物流系统\----\物流系统\Src\DllCpp\DllTest_1\x64\Debug\DllCpp.exe
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。
