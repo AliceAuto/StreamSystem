@@ -1,10 +1,9 @@
 
-# 导入布局文件
-from ui import Win as MainWin
-# 导入窗口控制器
-from control import Controller as MainUIController
-# 将窗口控制器 传递给UI
-app = MainWin(MainUIController())
+from ui import Win
+from control import Controller
+
 if __name__ == "__main__":
-    # 启动
-    app.mainloop()
+    controller = Controller()  # 创建控制器实例
+    app = Win(controller)  # 将控制器传递给主窗口
+    controller.init(app)  # 初始化控制器
+    app.mainloop()  # 启动应用程序

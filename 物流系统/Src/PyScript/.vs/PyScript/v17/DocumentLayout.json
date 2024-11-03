@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:CppDll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\control.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:control.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\ui.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:ui.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|solutionrelative:main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C39FCFD9-FDD9-48F2-870F-9D21F744905D}|PyScript.pyproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\CppDll.sln||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -18,19 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.py",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\main.py",
+              "RelativeDocumentMoniker": "main.py",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\main.py",
+              "RelativeToolTip": "main.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVDhPpZOxioNAGITHwzJlCpuABxYWKVLkAezFtxAs7a5NKQeBpEtjESGgb\u002BAD2AgWNoKChZZ2SWeKwN66eMGNEkjywYC7vzP4Dyh8578Eb1KpP0Af8JY67xd9\u002BAguoKoqpiiKYNs2uxNFEbquIwxD5HmOw\u002BGA\u002BXzOZh1cgCzLCIIARVFgv99D0zQ4joPT6YQ4juG6LtbrNQu9M\u002Bygg5qIqqqkbVtiWRY5n89kt9txu/9rsgPf95EkCS6XCzzPw/V6RdM0/XTMKGC73cIwDCwWC2Y\u002BHo8wTROr1QqKomCz2WA2m/VvUx5XoD1wnylJEknTlM06yrIkNIjNmHcY0JlpQffzUMvlkml4N\u002Bqgrmvcbrf\u002BxJNlGdMjow5ehQugK07qGVyAIAiTesbHK3z0OwPAH6D4xld\u002BSxLJAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-03T03:00:38.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dllmain.cpp",
-              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\dllmain.cpp",
-              "RelativeDocumentMoniker": "CppDll\\dllmain.cpp",
-              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\dllmain.cpp",
-              "RelativeToolTip": "CppDll\\dllmain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T02:45:07.011Z",
+              "Title": "control.py",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\control.py",
+              "RelativeDocumentMoniker": "control.py",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\control.py",
+              "RelativeToolTip": "control.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVDhPpZOxioNAGITHwzJlCpuABxYWKVLkAezFtxAs7a5NKQeBpEtjESGgb\u002BAD2AgWNoKChZZ2SWeKwN66eMGNEkjywYC7vzP4Dyh8578Eb1KpP0Af8JY67xd9\u002BAguoKoqpiiKYNs2uxNFEbquIwxD5HmOw\u002BGA\u002BXzOZh1cgCzLCIIARVFgv99D0zQ4joPT6YQ4juG6LtbrNQu9M\u002Bygg5qIqqqkbVtiWRY5n89kt9txu/9rsgPf95EkCS6XCzzPw/V6RdM0/XTMKGC73cIwDCwWC2Y\u002BHo8wTROr1QqKomCz2WA2m/VvUx5XoD1wnylJEknTlM06yrIkNIjNmHcY0JlpQffzUMvlkml4N\u002Bqgrmvcbrf\u002BxJNlGdMjow5ehQugK07qGVyAIAiTesbHK3z0OwPAH6D4xld\u002BSxLJAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-03T02:59:03.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ui.py",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\ui.py",
+              "RelativeDocumentMoniker": "ui.py",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\ui.py",
+              "RelativeToolTip": "ui.py",
+              "ViewState": "AQIAAIAAAAAAAAAAAAD4v04AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVDhPpZOxioNAGITHwzJlCpuABxYWKVLkAezFtxAs7a5NKQeBpEtjESGgb\u002BAD2AgWNoKChZZ2SWeKwN66eMGNEkjywYC7vzP4Dyh8578Eb1KpP0Af8JY67xd9\u002BAguoKoqpiiKYNs2uxNFEbquIwxD5HmOw\u002BGA\u002BXzOZh1cgCzLCIIARVFgv99D0zQ4joPT6YQ4juG6LtbrNQu9M\u002Bygg5qIqqqkbVtiWRY5n89kt9txu/9rsgPf95EkCS6XCzzPw/V6RdM0/XTMKGC73cIwDCwWC2Y\u002BHo8wTROr1QqKomCz2WA2m/VvUx5XoD1wnylJEknTlM06yrIkNIjNmHcY0JlpQffzUMvlkml4N\u002Bqgrmvcbrf\u002BxJNlGdMjow5ehQugK07qGVyAIAiTesbHK3z0OwPAH6D4xld\u002BSxLJAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-03T02:56:02.805Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CppDll.sln",
               "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\CppDll\\CppDll.sln",
               "RelativeDocumentMoniker": "CppDll\\CppDll.sln",
@@ -71,8 +105,7 @@
               "RelativeToolTip": "CppDll\\CppDll.sln",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002855|",
-              "WhenOpened": "2024-11-02T13:57:28.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T13:57:28.917Z"
             }
           ]
         }

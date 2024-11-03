@@ -1,19 +1,20 @@
-from ui import WinGUI as UI
+from ui import Win as UI
 class Controller:
-    ui: UI
-
+    """应用程序控制器。"""
     def __init__(self):
-        pass
+        self.ui = None
 
     def init(self, ui):
         self.ui = ui
 
     def User_Info(self):
-        print("Oppen User_Info")
+        print("Open User_Info")
 
-    def login(self, evt):
-        self.ui.login_success() # 调用 WinGUI 的 login_success 方法以切换到主页面
-        print("OPpen login")
+    def login(self):
+        # 调用 WinGUI 的 login_success 方法以切换到主页面
+        if self.ui.login_frame:  # 确保登录框存在
+            self.ui.on_login_success()
+        print("Open login")
 
-    def zhuce(self, evt):
-        print("Open zhuce")
+    def register(self):
+        print("Open registration")
