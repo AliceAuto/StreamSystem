@@ -1,4 +1,5 @@
-﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。
+﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。不是必须的,相当于一个初始化模块
+//如果你的dll不需要初始化就不用DllMain函数
 #include "pch.h"
 
 BOOL APIENTRY DllMain( HMODULE hModule,
