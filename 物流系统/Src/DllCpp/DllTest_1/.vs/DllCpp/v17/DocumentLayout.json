@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|solutionrelative:Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|solutionrelative:DllTest_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|solutionrelative:DllTest_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:2:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|solutionrelative:Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:1:0:{74458425-8E57-4D3B-958A-DDFBC84AF8FF}|DllCpp.vcxproj|solutionrelative:Mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +58,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Mian.cpp",
               "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp",
               "RelativeDocumentMoniker": "Mian.cpp",
               "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp",
               "RelativeToolTip": "Mian.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T07:15:12.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DllTest_1.cpp",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.cpp",
+              "RelativeDocumentMoniker": "DllTest_1.cpp",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.cpp",
+              "RelativeToolTip": "DllTest_1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-03T07:13:22.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DllTest_1.h",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.h",
+              "RelativeDocumentMoniker": "DllTest_1.h",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\DllTest_1.h",
+              "RelativeToolTip": "DllTest_1.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-03T07:12:53.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mian.cpp",
+              "DocumentMoniker": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp",
+              "RelativeDocumentMoniker": "Mian.cpp",
+              "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\DllCpp\\DllTest_1\\Mian.cpp",
+              "RelativeToolTip": "Mian.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-03T06:43:22.809Z",
               "EditorCaption": ""
