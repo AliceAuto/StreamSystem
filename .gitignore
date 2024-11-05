@@ -1,0 +1,16 @@
+ 
+     # Visual Studio 2017/2019/2022
+     *.suo
+     *.user
+     *.sln.cache
+     obj/
+     bin/
+     .vs/
+     *.aps
+     *.ncb
+     *.opensdf
+     *.sdf
+     *.cachefile
+     *.VC.db
+     .vscode/
+     
