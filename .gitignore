@@ -3,6 +3,10 @@
      *.suo
      *.user
      *.sln.cache
+     *.vsidx
+     *.suo
+     *.VC.db
+     *.json
      obj/
      bin/
      .vs/
