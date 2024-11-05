@@ -8,3 +8,4 @@ extern "C" __declspec(dllexport) int add(int a, int b) {
     // 返回两个整数的和
     return a + b;
 }
+a
