@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,6 +49,10 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.py",
@@ -56,7 +60,7 @@
               "RelativeDocumentMoniker": "main.py",
               "ToolTip": "D:\\\u7269\u6D41\u7CFB\u7EDF\\----\\\u7269\u6D41\u7CFB\u7EDF\\Src\\PyScript\\main.py",
               "RelativeToolTip": "main.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVDhPpZOxioNAGITHwzJlCpuABxYWKVLkAezFtxAs7a5NKQeBpEtjESGgb\u002BAD2AgWNoKChZZ2SWeKwN66eMGNEkjywYC7vzP4Dyh8578Eb1KpP0Af8JY67xd9\u002BAguoKoqpiiKYNs2uxNFEbquIwxD5HmOw\u002BGA\u002BXzOZh1cgCzLCIIARVFgv99D0zQ4joPT6YQ4juG6LtbrNQu9M\u002Bygg5qIqqqkbVtiWRY5n89kt9txu/9rsgPf95EkCS6XCzzPw/V6RdM0/XTMKGC73cIwDCwWC2Y\u002BHo8wTROr1QqKomCz2WA2m/VvUx5XoD1wnylJEknTlM06yrIkNIjNmHcY0JlpQffzUMvlkml4N\u002Bqgrmvcbrf\u002BxJNlGdMjow5ehQugK07qGVyAIAiTesbHK3z0OwPAH6D4xld\u002BSxLJAAAAAElFTkSuQmCC",
               "WhenOpened": "2024-11-03T03:00:38.456Z",
               "EditorCaption": ""
