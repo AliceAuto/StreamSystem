@@ -28,12 +28,15 @@
 *.pdb
 *.pgc
 *.pgd
+*.idb
+*.exp
 *.rsp
 *.sbr
 *.tlb
 *.tli
 *.tlh
 *.tmp
+*.tlog
 *.tmp_proj
 *.log
 *.vspscc
