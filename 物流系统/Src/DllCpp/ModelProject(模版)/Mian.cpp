@@ -8,6 +8,8 @@ int main() {
     // 加载 DLL
 
 
+
+
     HMODULE hDll = LoadLibrary(TEXT("dlllib/Dll1.dll"));  // 确保 DLL 文件路径正确//注意这里使用相对路径，所有的dll都会生成到dlllib
     if (hDll) {
         // 获取函数地址
