@@ -2,6 +2,8 @@
 # Visual Studio通用设置
 [Tt]humbs.db
 *.suo
+*.VC.db
+*.json
 *.user
 *.sln.docstates
 *.vspscc
@@ -78,10 +80,7 @@ node_modules/
 *.manifest
 
 # 源代码管理系统生成的文件
-.svn
-.hg
-.git
-.gitignore
+
 
 # 忽略所有本地化文件
 *.localize
