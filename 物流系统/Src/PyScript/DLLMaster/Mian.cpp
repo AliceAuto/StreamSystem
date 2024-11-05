@@ -13,6 +13,8 @@ int main() {
     // 将 DLL 文件夹路径添加到系统路径
     SetDllDirectory(TEXT(DLL_FOLDER_PATH));  // 指定DLL搜索路径
 
+
+
     // 加载 DLL，仅使用文件名
     HMODULE hDll = LoadLibrary(TEXT(DLL_NAME));
     if (hDll) {
