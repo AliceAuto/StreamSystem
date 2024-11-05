@@ -1,14 +1,21 @@
 #include <windows.h>
 #include <iostream>
-#include "dllmain.h"// 包含 DLL 的头文件
+#include <string>
+#include "dllmain.h"  // 包含 DLL 的头文件
+
+using namespace std;
+
+#define DLL_FOLDER_PATH "Dlls/dllOuts"  // DLL文件所在的文件夹路径
+#define DLL_NAME "Dll1.dll"  // DLL 文件名
 
 typedef int (*AddFunction)(int, int);  // 定义函数指针类型
 
 int main() {
-    // 加载 DLL
+    // 将 DLL 文件夹路径添加到系统路径
+    SetDllDirectory(TEXT(DLL_FOLDER_PATH));  // 指定DLL搜索路径
 
-
-    HMODULE hDll = LoadLibrary(TEXT("Dlls/dllOuts/Dll1.dll"));  // 确保 DLL 文件路径正确//注意这里使用相对路径，所有的dll都会生成到dlllib
+    // 加载 DLL，仅使用文件名
+    HMODULE hDll = LoadLibrary(TEXT(DLL_NAME));
     if (hDll) {
         // 获取函数地址
         AddFunction add = (AddFunction)GetProcAddress(hDll, "add");
@@ -27,6 +34,9 @@ int main() {
     else {
         std::cerr << "Could not load the DLL." << std::endl;
     }
+
+    // 重置DLL路径
+    SetDllDirectory(NULL);
 
     return 0;
 }
