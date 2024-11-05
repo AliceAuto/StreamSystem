@@ -8,4 +8,3 @@ extern "C" __declspec(dllexport) int sub(int a, int b) {
     // 返回两个整数的和
     return a - b;
 }
-a

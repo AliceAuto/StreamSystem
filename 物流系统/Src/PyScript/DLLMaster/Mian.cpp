@@ -9,7 +9,6 @@ using namespace std;
 #define DLL_NAME "Dll1.dll"  // DLL 文件名
 
 typedef int (*AddFunction)(int, int);  // 定义函数指针类型
-
 int main() {
     // 将 DLL 文件夹路径添加到系统路径
     SetDllDirectory(TEXT(DLL_FOLDER_PATH));  // 指定DLL搜索路径
