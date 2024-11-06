@@ -7,7 +7,7 @@ using namespace std;
 
 #define DLL_FOLDER_PATH "Dlls/dllOuts"  // DLL文件所在的文件夹路径
 #define DLL_NAME "Dll1.dll"  // DLL 文件名
-
+#define DLL_NAME_0 "jsoncpp.dll"  // DLL 文件名
 typedef int (*AddFunction)(int, int);  // 定义函数指针类型
 int main() {
     // 将 DLL 文件夹路径添加到系统路径
@@ -16,6 +16,7 @@ int main() {
 
 
     // 加载 DLL，仅使用文件名
+    LoadLibrary(TEXT(DLL_NAME_0));
     HMODULE hDll = LoadLibrary(TEXT(DLL_NAME));
     if (hDll) {
         // 获取函数地址
