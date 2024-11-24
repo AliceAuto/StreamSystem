@@ -135,6 +135,11 @@
   <ItemGroup>
     <ClCompile Include="Mian.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="printFormat.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
