@@ -13,7 +13,7 @@ int main() {
 	print<int>({ 2,32,32,3,23,2 });
 	cout << "HHHHHHHHHHHHHH" << endl;
 
-
+	cout << "TEST" << endl;
 
 	return 0;
 }
