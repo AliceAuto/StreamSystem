@@ -1,18 +1,14 @@
-#pragma once
-#include "Object.h"
+#ifndef USER_H
+#define USER_H
+
 #include <string>
-using namespace std;
-class User {
-public:
-	size_t id;
-	string name;
-	vector<size_t> shop_history;//购买历史
-	//==================================
-	void print() {
-		
-	}
-	
+#include <vector>
+
+struct User {
+    int id;
+    std::string name;
+    std::vector<int> purchaseHistory; // 购买历史商品ID
 };
 
-
-
+#endif // USER_H
+#pragma once
